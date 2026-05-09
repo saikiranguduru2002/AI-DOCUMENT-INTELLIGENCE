@@ -1,0 +1,30 @@
+## AI-DOC-INTEL (repo-local)
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual envs
+venv/
+.venv/
+backend/venv/
+
+# Env / secrets
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
